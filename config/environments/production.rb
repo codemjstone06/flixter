@@ -86,4 +86,5 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 end
 
+ruby ENV['CUSTOM_RUBY_VERSION'] || '2.5.1'
 

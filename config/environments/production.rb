@@ -85,3 +85,5 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 end
+
+ruby ENV['CUSTOM_RUBY_VERSION'] || '2.3.7'

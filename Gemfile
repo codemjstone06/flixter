@@ -65,7 +65,7 @@ gem 'stripe'
 gem 'ranked-model'
 gem 'jquery-ui-rails'
 gem "font-awesome-rails"
-
+ruby '2.3.1'
 
 
 source 'https://rails-assets.org' do

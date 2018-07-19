@@ -1,4 +1,4 @@
 class Image < ApplicationRecord
   belongs_to :user
-  belongs to :course
+  belongs_to :course
 end
